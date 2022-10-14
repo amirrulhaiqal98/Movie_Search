@@ -6,7 +6,7 @@ function searchMovie(){
     // $.getJSON('http://www.omdbapi.com/?apikey=ca892c66')
     $.ajax({
         //api URL
-        url : 'http://www.omdbapi.com',
+        url : 'https://www.omdbapi.com',
         //method
         type: 'get',
         //return data type
@@ -66,7 +66,7 @@ $('#search-input').on('keyup', function(e){
 $('#movie-list').on('click','.see-detail', function(){
     $.ajax({
         //api URL
-        url : 'http://www.omdbapi.com',
+        url : 'https://www.omdbapi.com',
         //method
         type: 'get',
         //return data type
